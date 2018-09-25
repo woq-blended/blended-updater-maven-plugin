@@ -4,12 +4,15 @@ import scala.collection.immutable.Seq
 
 implicit val scalaVersion = ScalaVersion("2.12.6")
 
+val pluginVersion = "2.6.0-M1-SNAPSHOT"
+val blendedVersion = "2.6.0-M1-SNAPSHOT"
+
 object Deps {
   val mavenVersion = "3.0.5"
 
-  val blendedUpdaterMavenPlugin = "de.wayofquality.blended" % "blended-updater-maven-plugin" % "2.5.0-SNAPSHOT"
+  val blendedUpdaterMavenPlugin = "de.wayofquality.blended" % "blended-updater-maven-plugin" % pluginVersion
 
-  val blendedUpdaterTools = "de.wayofquality.blended" %% "blended.updater.tools" % "2.5.0-SBT-SNAPSHOT"
+  val blendedUpdaterTools = "de.wayofquality.blended" %% "blended.updater.tools" % blendedVersion
   val mavenPluginApi = "org.apache.maven" % "maven-plugin-api" % mavenVersion
   val mavenPluginAnnotations = "org.apache.maven.plugin-tools" % "maven-plugin-annotations" % "3.4"
   val mavenCore = "org.apache.maven" % "maven-core" % mavenVersion
