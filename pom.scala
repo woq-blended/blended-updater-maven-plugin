@@ -2,10 +2,10 @@ import org.sonatype.maven.polyglot.scala.model._
 
 import scala.collection.immutable.Seq
 
-implicit val scalaVersion = ScalaVersion("2.12.6")
+implicit val scalaVersion = ScalaVersion("2.12.8")
 
-val pluginVersion = "3.0-M3-SNAPSHOT"
-val blendedVersion = "3.0-M3-SNAPSHOT"
+val pluginVersion = "3.0-M3"
+val blendedVersion = "3.0-M3"
 
 object Deps {
   val mavenVersion = "3.0.5"
