@@ -4,8 +4,8 @@ import scala.collection.immutable.Seq
 
 implicit val scalaVersion = ScalaVersion("2.12.8")
 
-val pluginVersion = "3.0-M10"
-val blendedVersion = "3.0-M10"
+val pluginVersion = "3.0-M11-SNAPSHOT"
+val blendedVersion = "3.0-M11-SNAPSHOT"
 
 object Deps {
   val mavenVersion = "3.0.5"
